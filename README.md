@@ -1,6 +1,6 @@
 <div align='center'><br /><img src="https://raw.githubusercontent.com/theia-ide/security-audit/master/assets/security-header.png" width="400px"/></div>
 
-### Security Audit - 6/3/2020 at 19:51 UTC
+### Security Audit - 7/3/2020 at 18:25 UTC
 -- -
 
 #### Scan Summary
@@ -18,4 +18,5 @@
 | [Arbitrary File Write](https://npmjs.com/advisories/1217) | decompress (devDependency) | high | 4.2.0 | >=0.0.0 | <0.0.0 | No fix is currently available. Consider using an alternative package until a fix is made available. | @theia/plugin-dev>@theia/plugin-ext>decompress |
 | [Denial of Service](https://npmjs.com/advisories/788) | js-yaml (devDependency) | moderate | 3.7.0 | <3.13.0 | >=3.13.0 | Upgrade to version 3.13.0. | @theia/cli>@theia/application-manager>css-loader>cssnano>postcss-svgo>svgo>js-yaml |
 | [Cross-Site Scripting](https://npmjs.com/advisories/1426) | serialize-javascript (devDependency) | moderate | 1.9.1 | <2.1.1 | >=2.1.1 | Upgrade to version 2.1.1 or later. | @theia/cli>@theia/application-manager>@theia/compression-webpack-plugin>serialize-javascript |
+| [Regular Expression Denial of Service](https://npmjs.com/advisories/1488) | acorn (devDependency) | moderate | 6.4.0 | >=5.5.0 <7.1.1 | >=7.1.1 | Upgrade to version 7.1.1 or later. | @theia/cli>@theia/application-manager>webpack>acorn |
 
