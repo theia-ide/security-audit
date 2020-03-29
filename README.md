@@ -1,6 +1,6 @@
 <div align='center'><br /><img src="https://raw.githubusercontent.com/theia-ide/security-audit/master/assets/security-header.png" width="400px"/></div>
 
-### Security Audit - 28/3/2020 at 18:35 UTC
+### Security Audit - 29/3/2020 at 18:36 UTC
 -- -
 
 #### Scan Summary
