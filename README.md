@@ -1,13 +1,13 @@
 <div align='center'><br /><img src="https://raw.githubusercontent.com/theia-ide/security-audit/master/assets/security-header.png" width="400px"/></div>
 
-### Security Audit - 7/5/2021 at 0:50 UTC
+### Security Audit - 8/5/2021 at 0:50 UTC
 -- -
 
 #### Scan Summary
 
 | Moderate | High | Critical |
 |:---|:---|:---|
-| 6 | 3 | 0 |
+| 4 | 3 | 0 |
 
 
 #### Scan Details
@@ -22,5 +22,4 @@
 | [Cross-Site Scripting](https://npmjs.com/advisories/1426) | serialize-javascript (dependency) | moderate | 1.9.1 | <2.1.1 | >=2.1.1 | Upgrade to version 2.1.1 or later. | @theia/cli>@theia/application-manager>@theia/compression-webpack-plugin>serialize-javascript |
 | [Improper Input Validation](https://npmjs.com/advisories/1675) | sanitize-html (dependency) | moderate | 1.27.5 | <2.3.1 | >=2.3.1 | Upgrade to version 2.3.1 or later | @theia/vsx-registry>sanitize-html |
 | [Improper Input Validation](https://npmjs.com/advisories/1676) | sanitize-html (dependency) | moderate | 1.27.5 | <2.3.2 | >=2.3.2 | Upgrade to version 2.3.2 or later | @theia/vsx-registry>sanitize-html |
-| [Regular Expression Deinal of Service](https://npmjs.com/advisories/1677) | hosted-git-info (dependency) | moderate | 2.8.9 | <3.0.8 | >=3.0.8 | Upgrade to version 3.0.8 or later | @theia/cli>@theia/application-manager>webpack-cli>yeoman-environment>yeoman-generator>read-pkg-up>read-pkg>normalize-package-data>hosted-git-info |
 
