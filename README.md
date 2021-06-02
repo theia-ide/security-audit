@@ -1,13 +1,13 @@
 <div align='center'><br /><img src="https://raw.githubusercontent.com/theia-ide/security-audit/master/assets/security-header.png" width="400px"/></div>
 
-### Security Audit - 1/6/2021 at 2:31 UTC
+### Security Audit - 2/6/2021 at 2:37 UTC
 -- -
 
 #### Scan Summary
 
 | Moderate | High | Critical |
 |:---|:---|:---|
-| 2 | 1 | 0 |
+| 2 | 2 | 0 |
 
 
 #### Scan Details
@@ -18,4 +18,5 @@
 | [Remote Code Execution](https://npmjs.com/advisories/1548) | serialize-javascript (dependency) | high | 1.9.1 | <3.1.0 | >=3.1.0 | Upgrade to version 3.1.0 or later. | @theia/cli>@theia/application-manager>@theia/compression-webpack-plugin>serialize-javascript |
 | [Denial of Service](https://npmjs.com/advisories/788) | js-yaml (dependency) | moderate | 3.7.0 | <3.13.0 | >=3.13.0 | Upgrade to version 3.13.0. | @theia/cli>@theia/application-manager>css-loader>cssnano>postcss-svgo>svgo>js-yaml |
 | [Cross-Site Scripting](https://npmjs.com/advisories/1426) | serialize-javascript (dependency) | moderate | 1.9.1 | <2.1.1 | >=2.1.1 | Upgrade to version 2.1.1 or later. | @theia/cli>@theia/application-manager>@theia/compression-webpack-plugin>serialize-javascript |
+| [Regular Expression Denial of Service](https://npmjs.com/advisories/1748) | ws (dependency) | moderate | 6.2.2 | >=5.0.0 <7.4.6 | >=7.4.6 | Upgrade to version 7.4.6 or later | @theia/cli>puppeteer>ws |
 
